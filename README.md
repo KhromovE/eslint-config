@@ -1,0 +1,1 @@
+# @khromove/eslint-config
