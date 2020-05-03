@@ -1,6 +1,6 @@
 {
   "name": "@khromove/eslint-config-typescript",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A config for eslint",
   "main": ".eslintrc.js",
   "publishConfig": {
@@ -35,5 +35,6 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-prettier": "^3.1.3"
-  }
+  },
+  "gitHead": "1fafd5ef7336c2b9d478ec984b4887f640846424"
 }
