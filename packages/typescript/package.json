@@ -1,14 +1,22 @@
 {
-  "name": "eslint-config-typescript",
+  "name": "@khromove/eslint-config-typescript",
   "version": "0.1.0",
   "description": "A config for eslint",
-  "main": "index.js",
+  "main": ".eslintrc.json",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "test": "eslint ./ --ext .ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhromovE/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KhromovE/eslint-config/issues"
+  },
+  "homepage": "https://github.com/KhromovE/eslint-config",
   "keywords": [
     "eslint",
     "config",
