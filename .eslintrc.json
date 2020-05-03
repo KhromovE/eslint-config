@@ -1,3 +1,3 @@
 {
-  "extends": "./packages/typescript/.eslintrc.json"
+  "extends": "./packages/typescript/.eslintrc.js"
 }
