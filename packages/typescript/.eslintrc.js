@@ -1,9 +1,9 @@
-{
-  "env": {
-    "es6": true,
-    "node": true
+module.exports = {
+  env: {
+    es6: true,
+    node: true
   },
-  "extends": [
+  extends: [
     "airbnb-base",
     "plugin:import/errors",
     "plugin:import/warnings",
@@ -11,21 +11,21 @@
     "prettier/@typescript-eslint",
     "plugin:prettier/recommended"
   ],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "ecmaVersion": 2018,
-    "sourceType": "module"
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: "module"
   },
-  "plugins": ["@typescript-eslint"],
-  "rules": {
+  plugins: ["@typescript-eslint"],
+  rules: {
     "import/prefer-default-export": "off",
     "import/no-default-export": "error",
     "no-unused-expressions": [
-    "warn",
-    {
-      "allowShortCircuit": true,
-      "allowTernary": true
-    }
+      "warn",
+      {
+        allowShortCircuit: true,
+        allowTernary: true
+      }
     ],
     "@typescript-eslint/prefer-interface": "off",
     "@typescript-eslint/no-explicit-any": "off",
@@ -33,8 +33,8 @@
       "error",
       "ignorePackages",
       {
-          "ts": "never",
-          "tsx": "never"
+          ts: "never",
+          tsx: "never"
       }
     ]
   }

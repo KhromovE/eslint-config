@@ -2,7 +2,7 @@
   "name": "@khromove/eslint-config-typescript",
   "version": "0.1.0",
   "description": "A config for eslint",
-  "main": ".eslintrc.json",
+  "main": ".eslintrc.js",
   "publishConfig": {
     "access": "public"
   },
