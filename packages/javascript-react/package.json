@@ -1,0 +1,37 @@
+{
+  "name": "@khromove/eslint-config-javascript-react",
+  "version": "0.6.0",
+  "description": "A react config for eslint",
+  "main": ".eslintrc.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "eslint ./ --ext .jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhromovE/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "react"
+  ],
+  "author": "Egor Khromov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KhromovE/eslint-config/issues"
+  },
+  "homepage": "https://github.com/KhromovE/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  },
+  "dependencies": {
+    "@khromove/eslint-config-javascript": "^0.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.5"
+  }
+}
