@@ -1,7 +1,7 @@
 {
   "name": "@khromove/eslint-config-typescript",
   "version": "0.4.0",
-  "description": "A config for eslint",
+  "description": "A typescipt config for eslint",
   "main": ".eslintrc.js",
   "publishConfig": {
     "access": "public"
@@ -25,16 +25,16 @@
   "author": "Egor Khromov",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^7.4.0",
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.29.0",
-    "@typescript-eslint/parser": "^2.29.0",
-    "eslint-config-airbnb-base": "^14.1.0",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-prettier": "^3.1.3"
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4"
   },
   "gitHead": "1fafd5ef7336c2b9d478ec984b4887f640846424"
 }
