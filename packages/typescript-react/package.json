@@ -31,5 +31,6 @@
   "dependencies": {
     "@khromove/eslint-config-javascript-react": "^2.0.0",
     "@khromove/eslint-config-typescript": "^2.0.0"
-  }
+  },
+  "gitHead": "dd9ad0b9bc4d77b788d0230a9fff6993dad5c07e"
 }
