@@ -1,0 +1,35 @@
+{
+  "name": "@khromove/eslint-config-typescript-react",
+  "version": "1.0.0",
+  "description": "A typescript verstion of the react config for eslint",
+  "main": ".eslintrc.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "eslint ./ --ext .jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhromovE/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "typescript",
+    "react"
+  ],
+  "author": "Egor Khromov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KhromovE/eslint-config/issues"
+  },
+  "homepage": "https://github.com/KhromovE/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  },
+  "dependencies": {
+    "@khromove/eslint-config-javascript-react": "^1.0.0",
+    "@khromove/eslint-config-typescript": "^1.0.0"
+  }
+}
