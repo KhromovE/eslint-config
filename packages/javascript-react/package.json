@@ -1,6 +1,6 @@
 {
   "name": "@khromove/eslint-config-javascript-react",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A react config for eslint",
   "main": ".eslintrc.js",
   "publishConfig": {
@@ -28,7 +28,7 @@
     "eslint": "^7.4.0"
   },
   "dependencies": {
-    "@khromove/eslint-config-javascript": "^2.0.0",
+    "@khromove/eslint-config-javascript": "^2.0.1",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.20.3",

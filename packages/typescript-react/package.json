@@ -1,6 +1,6 @@
 {
   "name": "@khromove/eslint-config-typescript-react",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A typescript verstion of the react config for eslint",
   "main": ".eslintrc.js",
   "publishConfig": {
@@ -29,8 +29,8 @@
     "eslint": "^7.4.0"
   },
   "dependencies": {
-    "@khromove/eslint-config-javascript-react": "^2.0.0",
-    "@khromove/eslint-config-typescript": "^2.0.0"
+    "@khromove/eslint-config-javascript-react": "^2.0.1",
+    "@khromove/eslint-config-typescript": "^2.0.1"
   },
   "gitHead": "dd9ad0b9bc4d77b788d0230a9fff6993dad5c07e"
 }
