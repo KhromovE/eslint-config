@@ -7,7 +7,7 @@
     "access": "public"
   },
   "scripts": {
-    "test": "eslint ./ --ext .jsx"
+    "test": "eslint ./ --ext .tsx"
   },
   "repository": {
     "type": "git",
@@ -27,11 +27,12 @@
   "homepage": "https://github.com/KhromovE/eslint-config#readme",
   "devDependencies": {
     "eslint": "^7.4.0",
+    "react": "^16.13.1",
     "typescript": "^3.9.6"
   },
   "dependencies": {
-    "@khromove/eslint-config-javascript-react": "^2.0.2",
-    "@khromove/eslint-config-typescript": "^2.0.2"
+    "@khromove/eslint-config-javascript-react": "^1.0.0",
+    "@khromove/eslint-config-typescript": "^1.0.0"
   },
-  "gitHead": "7cf6317808d4ee4e2907c4840a6cb0b00f41fcc1"
+  "gitHead": "2d61e6f50e0ed5cda234666008591e492cb9fb69"
 }
