@@ -1,6 +1,6 @@
 {
   "name": "@khromove/eslint-config-typescript",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "description": "A typescipt config for eslint",
   "main": ".eslintrc.js",
   "publishConfig": {
@@ -29,7 +29,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@khromove/eslint-config-javascript": "^0.6.0",
+    "@khromove/eslint-config-javascript": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^3.5.0",
     "@typescript-eslint/parser": "^3.5.0"
   },
